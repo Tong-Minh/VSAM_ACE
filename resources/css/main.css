@@ -1,0 +1,70 @@
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+body > div {
+    width: 100vw;
+
+}
+
+#text-effect-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(35, 70, 35);
+    height: 50vh;
+}
+
+#btn-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+#application-btn {
+    border: 1px solid rgb(0, 0, 0));
+    width: 100px;
+    height: 50px;
+}
+
+#application-btn:hover {
+    border: 1px solid rgb(255, 0, 0);
+    width: 100px;
+    height: 50px;
+}
+
+#typer-p, #first-typer, .cursor {
+    font-family: "Alfa Slab One", serif;
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    color:white;
+    /* font-weight: 400;
+    font-style: normal; */
+}
+
+ul {
+    list-style-type: none;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+
+.nav_inner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: "Alfa Slab One", serif;
+    font-size: clamp(1.5rem, 4vw, 2rem);
+}
+
+#nav_options {
+    display: flex;
+    gap: 2vw;
+}
