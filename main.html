@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="main.css" rel="stylesheet" type="text/css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
     <script src="main.js"></script>
     <title>A.C.E. Application</title>
+    
 </head>
 <body>
+    <nav id="navbar">
+        <div class=nav_inner>
+            LogoText
+        </div>
+        <ul id="nav_options">
+            <a><li>Option</li></a>
+            <a><li>Option</li></a>
+            <a><li>Option</li></a>
+        </ul>
+    </nav>
+
     <div id="text-effect-div">
-        <p id="text-effect">So you want to be...</p>
+        <p id="typer-p">So you want to be <!-- Typer.js -->
+            <span id="first-typer" class="typer" data-delay="100" data-words="an Anh?,a Chi/Chanh?,an Em?, a family head?" data-colors="red,yellow"></span>
+        </p>
+        <span class="cursor" data-owner="first-typer"></span>
+        <script async src="https://unpkg.com/typer-dot-js@0.1.0/typer.js"></script>
     </div>
+    
     <div id="btn-div">
-        <button>Start Application</button>
+        <a href="/"><button href="#" id="application-btn">Start Application</button></a>
     </div>
 </body>
 </html>
