@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(227, 222, 222);
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -67,4 +67,46 @@ ul {
 #nav_options {
     display: flex;
     gap: 2vw;
+}
+
+#form_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    /* width: clamp(200px, 5vw, 700px) */
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: clamp(300px, 70vw, 600px); */
+    /* border: 1px black solid; */
+    padding: 10vh 5vw;
+    border-radius: 20px;
+    background-color: #ebe9e9;
+    box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
+    /* width: clamp(200px, 50vw, 1000px) */
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    height: 5vh;
+    width: clamp(200px, 50vw, 500px);
+    box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
+    border-radius: 50px;
+    border: 0;
+    padding-left: 20px;
+}
+
+form > label, form > textarea, form > select{
+    display: flex;
+    align-items: left;
+    width: clamp(200px, 50vw, 500px);
+    padding-left: 10px;
 }

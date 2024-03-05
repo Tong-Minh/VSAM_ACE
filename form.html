@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="resources/css/main.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="resources/js/main.js"></script>
+    <title>A.C.E. Application</title>
+    
+</head>
+<body>
+    <nav id="navbar">
+        <div class=nav_inner>
+            LogoText
+        </div>
+        <ul id="nav_options">
+            <a><li>Option</li></a>
+            <a><li>Option</li></a>
+            <a><li>Option</li></a>
+        </ul>
+    </nav>
+ 
+    <div id="form_div">
+      <form>
+        <label for="fname">First name:</label>
+        <input class="input" type="text" id="fname" name="fname" placeholder="John"><br>
+        <label for="lname">Last name:</label>
+        <input class="input" type="text" id="lname" name="lname" placeholder="Doe"><br>
+
+        <label for="join_reason">Why do you want to join?</label>
+        <input class="input" id="join_reason" name="join_reason" placeholder="Enter your reason here"></input><br>
+
+        <label for="hope_to_gain">What do you hope to gain?</label>
+        <input class="input" id="hope_to_gain" name="hope_to_gain" placeholder="Enter your expectations here"></input><br>
+
+        <label for="preferences_gender">Gender Preference:</label>
+        <input class="input" type="text" id="preferences_gender" name="preferences_gender" placeholder="Enter your gender preference"><br>
+
+        <label for="preferences_goals">Goals Preference:</label>
+        <input class="input" type="text" id="preferences_goals" name="preferences_goals" placeholder="Enter your goals preference"><br>
+
+        <label for="preferences_interests">Interests Preference:</label>
+        <input class="input" type="text" id="preferences_interests" name="preferences_interests" placeholder="Enter your interests preference"><br>
+
+        <label for="weekly_meetups">How many times would you like to meet up with pairings on a weekly basis?</label>
+        <input class="input" type="number" id="weekly_meetups" name="weekly_meetups" min="0"><br>
+
+        <label for="meeting_preference">How would you like to meet with ace pairing?</label>
+        <select class="input" id="meeting_preference" name="meeting_preference">
+            <option value="in_person">In Person</option>
+            <option value="online">Online</option>
+            <option value="both">Both</option>
+        </select><br>
+
+        <label for="core_identities">Core Identities:</label>
+        <input class="input" type="text" id="core_identities" name="core_identities" placeholder="Enter your core identities"><br>
+
+        <label for="exclusions">Exclusions and why:</label>
+        <input class="input" id="exclusions" name="exclusions" placeholder="Enter your exclusions and reasons"></input><br>
+
+        <label for="family_head_reason">Why do you want to be a family head?</label>
+        <input class="input" id="family_head_reason" name="family_head_reason" placeholder="Enter your reasons here"></input><br>
+
+        <label for="previous_experience">Previous Experience:</label>
+        <input class="input" id="previous_experience" name="previous_experience" placeholder="Enter your previous experience"></input><br>
+
+        <label for="concerns">Concerns:</label>
+        <input class="input" id="concerns" name="concerns" placeholder="Enter your concerns"></input><br>
+
+        <label for="personal_interests">Personal Interests/Hobbies:</label>
+        <input class="input" id="personal_interests" name="personal_interests" placeholder="Enter your interests and hobbies"></input><br>
+
+        <label for="availability">Availability:</label>
+        <input class="input" type="text" id="availability" name="availability" placeholder="Enter your availability"><br>
+
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+</body>
+</html>
